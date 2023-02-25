@@ -1,4 +1,4 @@
-import { ClockIcon, ShareIcon } from '@heroicons/react/outline'
+import { ClockIcon } from '@heroicons/react/outline'
 import { format } from 'date-fns'
 
 import {
@@ -8,11 +8,9 @@ import {
 } from '../../constants/settings'
 import {
   ARCHIVE_GAMEDATE_TEXT,
-  SHARE_TEXT,
   STATISTICS_TITLE,
 } from '../../constants/strings'
 import { GameStats } from '../../lib/localStorage'
-import { shareStatus } from '../../lib/share'
 import { solutionGameDate } from '../../lib/words'
 import { MigrationIntro } from '../stats/MigrationIntro'
 import { StatBar } from '../stats/StatBar'
